@@ -1,0 +1,6 @@
+s0:
+	if 0 left -> s0
+	if 1 write right -> s1
+s1:
+	if 0 write right -> s1
+	if 1 -> 0

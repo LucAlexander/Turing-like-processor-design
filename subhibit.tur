@@ -1,0 +1,19 @@
+s0:
+	if 0 left -> s1
+	if 1 left -> s1
+
+s1:
+	if 0 left -> s2
+	if 1 left -> s2
+
+s2:
+	if 0 left -> s3
+	if 1 left -> s3
+
+s3:
+	if 0 -> s3
+	if 1 write -> s4
+
+s4:
+	if 0 write -> 0
+	if 1 write -> s4
